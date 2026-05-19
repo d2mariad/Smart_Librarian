@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Backend local data
+backend/chroma_db/
+backend/static/audio/
+backend/static/images/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
