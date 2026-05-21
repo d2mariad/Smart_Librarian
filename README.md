@@ -32,7 +32,7 @@ F --> G[LLM - GPT-4o-mini]
 
 G --> H{Tool Call?}
 
-H -->|Yes| I[get_summary_by_title()]
+H -->|Yes| I[get_summary_by_title]
 I --> G
 
 H -->|No| J[Final Response]
